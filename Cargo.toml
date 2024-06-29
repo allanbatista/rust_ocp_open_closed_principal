@@ -1,0 +1,14 @@
+[package]
+name = "open_closed_principal"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ocp"
+path = "src/ocp.rs"
+
+[[bin]]
+name = "not_ocp"
+path = "src/not_ocp.rs"
+
+[dependencies]
